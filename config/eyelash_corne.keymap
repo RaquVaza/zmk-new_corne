@@ -110,6 +110,8 @@
 &kp LEFT_SHIFT  &trans  &trans  &kp C      &kp LEFT_ALT      &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                 &kp SPACE  &kp LEFT_CONTROL  &trans                                    &tog 0  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
     };
 };
