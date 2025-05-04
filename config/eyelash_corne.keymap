@@ -103,15 +103,16 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_4 {
+        game {
             bindings = <
-&kp ESCAPE      &kp Q   &kp W   &kp E      &kp E             &kp I                     &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB         &kp A   &kp S   &kp D      &kp F             &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE      &kp Q   &kp W   &kp E      &kp E             &kp R                     &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB         &kp A   &kp S   &kp D      &kp F             &kp I             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp LEFT_SHIFT  &trans  &trans  &kp C      &kp LEFT_ALT      &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                 &kp SPACE  &kp LEFT_CONTROL  &tog 0                                    &to 0   &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            label = "game";
         };
     };
 };
