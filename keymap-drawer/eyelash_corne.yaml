@@ -190,19 +190,19 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - PAUSE BREAK
   - $$mdi:apple-keyboard-option$$
-  - {t: '4', h: toggle}
+  - {t: game, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '4':
+  game:
   - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
   - E
-  - I
+  - R
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -215,7 +215,7 @@ layers:
   - S
   - D
   - F
-  - {t: '$$mdi:transfer$$', type: trans}
+  - I
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
