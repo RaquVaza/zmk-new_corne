@@ -201,8 +201,8 @@ layers:
   - Q
   - W
   - E
-  - E
   - R
+  - T
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
