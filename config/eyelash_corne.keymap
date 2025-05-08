@@ -70,10 +70,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &rgb_ug RGB_SPI  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans                                         &mmv MOVE_UP                     &kp N1        &kp N2   &kp NUMBER_3  &trans  &trans    &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_4  &kp N5   &kp NUMBER_6  &trans  &kp HOME  &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &trans           &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp N7        &kp N8   &kp N9        &kp N0  &kp END   &kp PG_DN
-                                          &trans           &trans           &trans                                                                          &kp INS       &kp DEL  &trans
+&trans  &rgb_ug RGB_SPI  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans                                         &mmv MOVE_UP                     &kp N1        &kp N2  &kp NUMBER_3  &trans  &kp DELETE  &kp BSPC
+&trans  &bt BT_CLR_ALL   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &trans  &kp HOME    &kp PG_UP
+&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &trans           &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp N7        &kp N8  &kp N9        &kp N0  &kp END     &kp PG_DN
+                                          &trans           &trans           &trans                                                                          &kp INS       &trans  &kp N0
             >;
 
             sensor-bindings = <&rgb_encoder>;
@@ -105,10 +105,10 @@
 
         game {
             bindings = <
-&kp ESCAPE      &kp Q   &kp W   &kp E      &kp E             &kp R                     &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB         &kp A   &kp S   &kp D      &kp F             &kp I             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &trans  &trans  &kp C      &kp LEFT_ALT      &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                &kp SPACE  &kp LEFT_CONTROL  &tog 0                                    &to 0   &trans  &trans
+&kp ESCAPE      &kp Q  &kp W  &kp E      &kp E             &kp R                           &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB         &kp A  &kp S  &kp D      &kp F             &kp I                   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V             &kp B         &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                              &kp SPACE  &kp LEFT_CONTROL  &kp LEFT_ALT                                    &to 0   &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
