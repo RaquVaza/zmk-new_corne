@@ -105,7 +105,7 @@
 
         game {
             bindings = <
-&kp ESCAPE      &kp Q  &kp W  &kp E      &kp E             &kp R                           &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE      &kp Q  &kp W  &kp E      &kp R             &kp T                           &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &kp TAB         &kp A  &kp S  &kp D      &kp F             &kp I                   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V             &kp B         &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                               &kp SPACE  &kp LEFT_CONTROL  &kp LEFT_ALT                                    &to 0   &trans  &trans
