@@ -55,7 +55,7 @@ layers:
   - RGB SPI
   - RGB BRI
   - RGB BRD
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Fn, h: toggle}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - LWIN
   - {type: held}
-  - {t: Fn, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
   game:
   - $$mdi:keyboard-esc$$
