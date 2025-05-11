@@ -174,8 +174,8 @@ layers:
   - {t: '5', s: '%'}
   - '6'
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F7
   - F8
   - F9
@@ -193,8 +193,8 @@ layers:
   - {t: game, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - LWIN
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:apple-keyboard-control$$', type: held}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '0', s: )}
   game:
   - $$mdi:keyboard-esc$$
