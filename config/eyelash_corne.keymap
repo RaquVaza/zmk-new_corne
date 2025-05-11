@@ -94,10 +94,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8      &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK   &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &sys_reset  &sys_reset  &kp PAUSE_BREAK  &kp LEFT_ALT
-                                       &tog 4       &trans     &trans                                                                   &trans       &trans     &trans
+&kp F1  &kp F2  &kp F3  &kp F10  &trans  &kp CAPSLOCK                          &kp UP                     &trans         &trans             &trans           &trans         &trans           &trans
+&kp F4  &kp F5  &kp F6  &kp F11  &trans  &kp TAB                     &kp LEFT  &kp ENTER       &kp RIGHT  &kp LEFT_META  &kp LEFT_CONTROL   &kp LEFT_SHIFT   &kp LEFT_ALT   &kp PRINTSCREEN  &trans
+&kp F7  &kp F8  &kp F9  &kp F12  &trans  &kp ENTER     &kp C_MUTE              &kp DOWN_ARROW             &kp RIGHT_GUI  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_ALT  &kp PAUSE_BREAK  &trans
+                        &tog 4   &trans  &trans                                                           &trans         &trans             &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
