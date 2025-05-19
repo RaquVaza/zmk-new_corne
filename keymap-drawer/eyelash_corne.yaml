@@ -100,11 +100,11 @@ layers:
   - {t: '0', s: )}
   SYMBOL:
   - {t: '`', s: '~'}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - FORWARD
+  - BACK
+  - PLAY PAUSE
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - ^
   - '&'
