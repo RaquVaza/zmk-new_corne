@@ -82,10 +82,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp GRAVE  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK             &trans                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans     &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSLH          &kp TILDE
-&trans     &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE          &kp BACKSPACE
-                                       &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
+&kp GRAVE  &kp K_FORWARD  &kp K_BACK    &kp K_PLAY_PAUSE  &trans     &trans                               &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK             &trans                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &bt BT_CLR     &mkp LCLK     &mkp MCLK         &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSLH          &kp TILDE
+&trans     &out OUT_USB   &out OUT_BLE  &none             &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE          &kp BACKSPACE
+                                        &trans            &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
