@@ -50,7 +50,7 @@ layers:
   - SYMBOL
   - $$mdi:apple-keyboard-control$$
   NUMBER:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: bt, h: toggle}
   - RGB SPI
   - RGB SPI
   - RGB BRI
@@ -68,7 +68,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: bt, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
