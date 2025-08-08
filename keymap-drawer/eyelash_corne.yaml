@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - $$mdi:volume-off$$
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -113,7 +113,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
